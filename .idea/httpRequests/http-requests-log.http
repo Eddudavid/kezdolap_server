@@ -1,0 +1,32 @@
+GET http://10.1.1.53:8080/uvr-ms-web
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-01-21T123715.200.html
+
+###
+
+GET http://10.1.1.53:8080/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-01-21T123656.200.html
+
+###
+
+GET http://10.1.1.53:8080/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-01-21T123655.200.html
+
+###
+
+GET http://10.1.1.53:8080
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-01-21T123621.200.html
+
+###
+
