@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(express.static(__dirname + "/public/KEZDOLAP"));
+app.use(express.static(__dirname + "/public"));
 
 
 app.post('/api/checkReachable', (async (req, res, next) => {
